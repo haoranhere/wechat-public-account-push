@@ -25,8 +25,8 @@ export const config = {
     //   id: "wxafasdasdd-zxfvsdfd"
     // }]
     USERS: [
-      {name: '宝贝', id: "osrME6Zlq5EkIxVfAtv0gjwYUKGs"}, 
-      //{name: '老婆1', id: "2hxOO6VskYv0Kuf-y你懂的,填错狗头打烂RMpuXhk"}, 
+      {name: '备机', id: "osrME6Zlq5EkIxVfAtv0gjwYUKGs"}, 
+      {name: '本机', id: "osrME6eCYyIA25wZ8Sb1R7tNi8Cg"}, 
       //{name: '老婆2', id: "3hxOO6VskYv0Kuf-yw你懂的,填错狗头打烂2RMpuXhk"}, 
       //{name: '老婆3', id: "4hxOO6VskYv0Kuf-ywI你懂的,填错狗头打烂MpuXhk"}, 
     ],
@@ -44,7 +44,7 @@ export const config = {
     // 所在省份
     PROVINCE: "四川",
     // 所在城市
-    CITY: "成都",
+    CITY: "成都-都江堰",
 
     /** 重要节日相关 */
 
@@ -53,15 +53,15 @@ export const config = {
     // 生日时，name填写想要展示的名字，你可以填“美丽可爱亲亲老婆”
     // 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
     FESTIVALS: [
-      {"type": "生日", "name": "宝贝", "year": "2001", "date": "02-18"},
-      {"type": "节日", "name": "抱抱纪念日", "year": "2022", "date": "04-30"},
+      {"type": "生日", "name": "我最亲爱的宝贝", "year": "2001", "date": "02-18"},
+      {"type": "节日", "name": "抱抱纪念日", "year": "2022", "date": "05-01"},
       {"type": "生日", "name": "宝贝的猪猪", "year": "2001", "date": "06-07"},
       {"type": "节日", "name": "开始聊天纪念日", "year": "2021", "date": "12-19"},
     ],
     // 限制重要节日的展示条目, 需要填写数字; 
     // 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
     // 如果为0, 则默认展示全部
-    FESTIVALS_LIMIT: 3,
+    FESTIVALS_LIMIT: 0,
 
     /** 日期相关 */
 
